@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".playlist.PlaylistFragment">
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/rvPlaylist"
+      app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:listitem="@layout/item_playlist"
+      />
+
+
+  <LinearLayout
+    android:id="@+id/noInternetContainer"
+      android:visibility="gone"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <include
+      android:id="@+id/noInternet"
+      layout="@layout/include_no_internet_connection"/>
+
+  </LinearLayout>
+
+</FrameLayout>
