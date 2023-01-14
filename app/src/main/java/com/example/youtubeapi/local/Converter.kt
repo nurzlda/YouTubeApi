@@ -8,7 +8,6 @@ import com.google.gson.reflect.TypeToken
 import java.lang.reflect.Type
 
 object Converter {
-
     val gson = Gson()
 
     @TypeConverter

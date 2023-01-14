@@ -12,7 +12,6 @@ abstract class BaseFragment<VB : ViewBinding, VM : BaseViewModel> : Fragment() {
     protected lateinit var binding: VB
     protected abstract val viewModel : VM
 
-
     abstract fun inflateViewBinding(inflater: LayoutInflater, container: ViewGroup?) : VB
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -24,7 +23,6 @@ abstract class BaseFragment<VB : ViewBinding, VM : BaseViewModel> : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         initViewModel()
         initView()
         initListener()
@@ -35,5 +33,4 @@ abstract class BaseFragment<VB : ViewBinding, VM : BaseViewModel> : Fragment() {
     open fun initListener(){}
     open fun initViewModel(){}
     open fun checkInternet(){}
-
 }

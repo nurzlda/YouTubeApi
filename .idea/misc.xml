@@ -3,12 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/TechLine/AndroidStudioProjects/YouTubeApi/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.106" />
+        <entry key="..\:/Users/TechLine/AndroidStudioProjects/YouTubeApi/app/src/main/res/drawable/ic_you_tube_btn.xml" value="0.106" />
         <entry key="..\:/Users/TechLine/AndroidStudioProjects/YouTubeApi/app/src/main/res/layout/activity_base.xml" value="0.203125" />
         <entry key="..\:/Users/TechLine/AndroidStudioProjects/YouTubeApi/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/TechLine/AndroidStudioProjects/YouTubeApi/app/src/main/res/layout/fragment_base.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/TechLine/AndroidStudioProjects/YouTubeApi/app/src/main/res/layout/fragment_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TechLine/AndroidStudioProjects/YouTubeApi/app/src/main/res/layout/fragment_detail.xml" value="0.2" />
         <entry key="..\:/Users/TechLine/AndroidStudioProjects/YouTubeApi/app/src/main/res/layout/fragment_playlist.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/TechLine/AndroidStudioProjects/YouTubeApi/app/src/main/res/layout/include_no_internet_connection.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TechLine/AndroidStudioProjects/YouTubeApi/app/src/main/res/layout/item_detail.xml" value="0.203125" />
         <entry key="..\:/Users/TechLine/AndroidStudioProjects/YouTubeApi/app/src/main/res/layout/item_playlist.xml" value="0.5" />
       </map>
     </option>

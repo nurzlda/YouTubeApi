@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/playlistFragment"
-        android:name="com.example.youtubeapi.playlist.PlaylistFragment"
+        android:name="com.example.youtubeapi.ui.playlist.PlaylistFragment"
         android:label="fragment_playlist"
         tools:layout="@layout/fragment_playlist" />
     <fragment

@@ -1,5 +1,7 @@
 package com.example.youtubeapi.model
 
+import java.io.Serializable
+
 
 data class Item(
     var contentDetails: ContentDetails? = null,
@@ -7,4 +9,4 @@ data class Item(
     var id: String? = null, // PLoSWVnSA9vG8F36IUVWkWIzUN0M9BGG_c
     var kind: String? = null, // youtube#playlist
     var snippet: Snippet? = null
-)
+) : Serializable

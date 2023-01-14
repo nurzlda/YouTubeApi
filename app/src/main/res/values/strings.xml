@@ -4,5 +4,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="name">name</string>
     <string name="title">Title</string>
+    <string name="video_count">%s video count</string>
     <string name="description">Description</string>
+    <string name="description_text">In this series, we break down the impact of displacement, instability, violence, and trauma in children, and offer exercises to support children in their healing journey.</string>
+    <string name="_32_video_series">32 video series</string>
 </resources>

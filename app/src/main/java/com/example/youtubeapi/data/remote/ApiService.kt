@@ -1,27 +1,26 @@
-package com.example.youtubeapi.data
+package com.example.youtubeapi.data.remote
 
 import com.example.youtubeapi.BuildConfig
 import com.example.youtubeapi.`object`.Constant
 import com.example.youtubeapi.model.Playlist
-import retrofit2.Call
+import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface ApiService {
-
     @GET("playlists")
-    fun getPlaylist(
+    suspend fun getPlaylist(
         @Query ("part")part : String = Constant.PART,
         @Query ("channelId")channelId : String = Constant.CHANNEL_ID,
         @Query ("maxResults")maxResults : String = Constant.MAX_RESULT,
         @Query ("key")key : String = BuildConfig.API_KEY,
-        ) : Call<Playlist>
+        ): Response<Playlist>
 
     @GET("playlistItems")
-    fun getPlaylistItems(
+    suspend fun getPlaylistItems(
         @Query ("part")part : String = Constant.PART,
         @Query ("playlistId")playlistId : String ,
         @Query ("key")key : String = BuildConfig.API_KEY,
         @Query ("maxResults")maxResults : String = Constant.MAX_RESULT
-    ): Call<Playlist>
+    ): Response<Playlist>
 }
